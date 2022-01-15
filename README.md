@@ -10,8 +10,7 @@ Deep prompt tuning increases the capacity of continuous prompts and closes the g
 ![](figures/P-tuning-v2.png)
 
 ## Reproduce Tips
-Since experiments reported in our paper are all conducted on NVIDIA DGX-A100 servers (which might be difficult to acquire), 
-we reimplement P-tuning v2's results on BERT-large/RoBERTa-large with:
+We reimplement P-tuning v2's results on BERT-large/RoBERTa-large with:
 
 * Ubuntu servers with NVIDIA GeForce RTX 3090 (24G) GPUs
 * cuda 11.1
